@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="View our gallery of happy, freshly groomed dogs from Snazzy Paws.">
   <title>Gallery - Snazzy Paws</title>
-  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <header><h1>Snazzy Paws Grooming</h1></header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="services.html">Services</a>
-    <a href="booking.html">Booking</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="testimonials.html">Testimonials</a>
-    <a href="location.html">Location</a>
-    <a href="contact.html">Contact Us</a>
-  </nav>
-  <section>
-    <div class="gallery">
-      <img src="images/groomed-dog-1.jpg" alt="Groomed dog 1">
-      <img src="images/groomed-dog-2.jpg" alt="Grommed dog 2">
-      <img src="images/groomed-dog-3.jpg" alt="Grommed dog 3">
-      <img src="images/groomed-dog-4.jpg" alt="Grommed dog 4">
-      <img src="images/groomed-dog-5.jpg" alt="Grommed dog 5">
-      <img src="images/groomed-dog-6.jpg" alt="Grommed dog 6">
-      <img src="images/groomed-dog-7.jpg" alt="Groomed dog 7">
-      <img src="images/groomed-dog-8.jpg" alt="Groomed dog 8">
-      <img src="images/groomed-dog-9.jpg" alt="Groomed dog 9">
-      <img src="images/groomed-dog-10.jpg" alt="Groomed dog 10">
-      <img src="images/groomed-dog-11.jpg" alt="Groomed dog 11">
-      <img src="images/groomed-dog-12.jpg" alt="Groomed dog 12">
-      <img src="images/groomed-dog-13.jpg" alt="Groomed dog 13">
-      <img src="images/groomed-dog-14.jpg" alt="Groomed dog 14">
-      <img src="images/groomed-dog-15.jpg" alt="Groomed dog 15">
-      <img src="images/groomed-dog-16.jpg" alt="Groomed dog 16">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Snazzy Paws</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+          <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
     </div>
-  </section>
-  <footer><p>Snazzy Paws Grooming’s opening hours Monday to Saturday, 9am to 5pm</p></footer>
+  </nav>
+
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Gallery</h2>
+    <div class="row row-cols-2 row-cols-md-4 g-3">
+      <div class="col"><img src="images/groomed-dog-1.jpg" class="img-fluid rounded" alt="Groomed dog 1"></div>
+      <div class="col"><img src="images/groomed-dog-2.jpg" class="img-fluid rounded" alt="Groomed dog 2"></div>
+      <div class="col"><img src="images/groomed-dog-3.jpg" class="img-fluid rounded" alt="Groomed dog 3"></div>
+      <div class="col"><img src="images/groomed-dog-4.jpg" class="img-fluid rounded" alt="Groomed dog 4"></div>
+      <div class="col"><img src="images/groomed-dog-5.jpg" class="img-fluid rounded" alt="Groomed dog 5"></div>
+      <div class="col"><img src="images/groomed-dog-6.jpg" class="img-fluid rounded" alt="Groomed dog 6"></div>
+      <div class="col"><img src="images/groomed-dog-7.jpg" class="img-fluid rounded" alt="Groomed dog 7"></div>
+      <div class="col"><img src="images/groomed-dog-8.jpg" class="img-fluid rounded" alt="Groomed dog 8"></div>
+    </div>
+  </div>
+
+  <footer class="bg-warning text-dark text-center py-3">
+    <p class="mb-0">Snazzy Paws Grooming's opening hours Monday to Saturday, 9am to 5pm</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
