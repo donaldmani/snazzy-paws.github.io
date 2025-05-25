@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted Area"
+AuthUserFile "C:/Users/Don/Documents/Diploma in IT/BIT607/Assessment 3/passwords/.htpasswd"
+Require valid-user  
